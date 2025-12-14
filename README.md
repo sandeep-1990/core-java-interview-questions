@@ -1,6 +1,6 @@
 Core Java Interview Questions — Detailed Explanations
 
-1.	# **If an exception occurs inside a constructor, will Java still create the object? Explain the behavior.**
+# **1. If an exception occurs inside a constructor, will Java still create the object? Explain the behavior.**
 
   If a constructor throws an exception, the object will NOT be created.
   Java allocates memory first, but the object becomes valid only after the constructor finishes successfully. If the constructor fails:
@@ -22,7 +22,7 @@ Core Java Interview Questions — Detailed Explanations
 
 
 
-3.	# **If I manually call the finalize() method and there are 5 resources to clean, but an exception occurs while cleaning one of them—will finalize() continue?**
+# **3. If I manually call the finalize() method and there are 5 resources to clean, but an exception occurs while cleaning one of them—will finalize() continue?**
 
   If you manually call finalize(), it behaves like a normal method:
   •	If an exception occurs, it will stop executing further lines (unless handled).
@@ -33,7 +33,7 @@ Core Java Interview Questions — Detailed Explanations
   ✔ Should never be used for resource cleanup
   Use try-with-resources or explicit close() methods instead.
 
-4.	# **Suppose you have a shared resource and want only 3 threads to access it simultaneously. How can you achieve this in Java?**
+# **4.	Suppose you have a shared resource and want only 3 threads to access it simultaneously. How can you achieve this in Java?**
 
   Use Semaphore with 3 permits.
     Semaphore semaphore = new Semaphore(3);
