@@ -49,43 +49,43 @@ Core Java Interview Questions — Detailed Explanations
       
   Semaphore is ideal when you need to limit concurrent access to a resource.
 
-**5.🔹 Core Java & Concurrency**
+**🔹 Core Java & Concurrency**
 
-**6. Explain the internal working of transactions**
+**5. Explain the internal working of transactions**
 
-**7. Explain the internal working of ConcurrentHashMap**
+**6. Explain the internal working of ConcurrentHashMap**
 
-**8.🔹 Spring & Spring Boot**
+**🔹 Spring & Spring Boot**
 
-**9. What is transaction propagation in Spring?**
+**7. What is transaction propagation in Spring?**
 
-**10. Explain the scope of Spring beans**
+**8. Explain the scope of Spring beans**
 
-**11. Explain the internal flow of an API call in Spring Boot**
+**9. Explain the internal flow of an API call in Spring Boot**
 
-**12. How does Circuit Breaker work internally?**
+**10. How does Circuit Breaker work internally?**
 
-**13. How do we integrate the Saga Design Pattern in microservices?**
+**11. How do we integrate the Saga Design Pattern in microservices?**
 
-**14. Difference between @Primary, @Bean, and @Qualifier annotations**
+**12. Difference between @Primary, @Bean, and @Qualifier annotations**
 
-**15. Explain how Spring Boot auto-configuration works internally**
+**13. Explain how Spring Boot auto-configuration works internally**
 
-**16.🔹 Microservices & System Design**
+**🔹 Microservices & System Design**
 
-**17. How does a system handle two duplicate requests hitting the server at the same time?**
+**14. How does a system handle two duplicate requests hitting the server at the same time?**
 
-**18. How does the database handle duplicate requests concurrently?**
+**15. How does the database handle duplicate requests concurrently?**
 
-**19.🔹 Design Principles**
+**.🔹 Design Principles**
 
-**20. Explain SOLID principles**
+**16. Explain SOLID principles**
 
-**21.🔹 Database Concepts**
+**🔹 Database Concepts**
 
-**22. Difference between a procedure and a function**
+**17. Difference between a procedure and a function**
 
-**23. What is a cursor in a database?**
+**18. What is a cursor in a database?**
 
 
 
